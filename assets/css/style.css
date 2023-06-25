@@ -9,12 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url(../img/background-header.jpg);
     background-position: center;
+    background-position-x: 100px;
     background-size: 100%;
     padding: 1%;
 }
@@ -48,16 +50,35 @@ nav a:hover {
     color: skyblue;
 }
 
+
+/* Main Styles */
 .left-box {
     display: flex;
     justify-content: right;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 20%;
+    height: 100px;
     border-right: 4px solid rgb(252, 207, 123);
     padding-right: 10px;
 }
 
 .left-box h2 {
     text-align: right;
+}
+
+.under-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 180px;
+    background-image: url(../img/for-header.jpg);
+    background-position: center;
+    background-position-x: -100px;
+    background-size: 110%;
+}
+
+.under-header h2 {
+    font-size: 200%;
+    margin-right: 2%;
 }
