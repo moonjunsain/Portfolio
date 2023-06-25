@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-left: 1rem;
     list-style: none;
 }
 
@@ -45,5 +45,19 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: white;
+    color: skyblue;
+}
+
+.left-box {
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+    border-right: 4px solid rgb(252, 207, 123);
+    padding-right: 10px;
+}
+
+.left-box h2 {
+    text-align: right;
 }
