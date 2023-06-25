@@ -16,7 +16,6 @@ header {
     align-items: center;
     background-image: url(../img/background-header.jpg);
     background-position: center;
-    background-position-x: 100px;
     background-size: 100%;
     padding: 1%;
 }
@@ -71,14 +70,18 @@ nav a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 180px;
-    background-image: url(../img/for-header.jpg);
+    height: 100px;
+    background-image: url(../img/under-header.jpg);
     background-position: center;
-    background-position-x: -100px;
-    background-size: 110%;
+    opacity: 60%;
+    background-size: 100%;
 }
 
 .under-header h2 {
-    font-size: 200%;
+    font-size: 170%;
     margin-right: 2%;
+}
+
+#about-me {
+    text-shadow: 0px 0px 5px rgb(70, 70, 142);
 }
