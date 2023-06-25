@@ -1,11 +1,13 @@
-*{
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -51,21 +53,36 @@ nav a:hover {
 
 
 /* Main Styles */
+/* left side of main */
+
 .left-box {
     display: flex;
-    justify-content: right;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 20%;
-    height: 100px;
-    border-right: 4px solid rgb(252, 207, 123);
-    padding-right: 10px;
+    justify-content: flex-start;
+    
+    margin: 4px 4px 4px 4px;
+    /* background-color: blue; */
+    padding: 4px 4px 4px 4px;
 }
 
 .left-box h2 {
+    border-right: 4px solid rgb(252, 207, 123);
+    padding-right: 5px;
     text-align: right;
 }
 
+/* right side of the main */
+.right-box {
+    display: inline-flex;
+    justify-content: flex-end;
+    background-color: orange;
+
+    flex-direction: row;
+    width: 100vh;
+    height: 16vh;
+    
+}
+
+/* right under the header */
 .under-header {
     display: flex;
     justify-content: flex-end;
@@ -80,6 +97,10 @@ nav a:hover {
 .under-header h2 {
     font-size: 170%;
     margin-right: 2%;
+}
+
+main section h2 {
+    font-size: 200%;
 }
 
 #about-me {
