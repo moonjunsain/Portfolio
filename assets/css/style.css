@@ -78,11 +78,12 @@ nav a:hover {
 }
 
 .my-work-box {
-
+    display: flex;
+    width: 100%;
 }
 
 .contact-info-box {
-    
+
 }
 
 /* right under the header */
