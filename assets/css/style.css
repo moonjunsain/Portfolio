@@ -79,6 +79,8 @@ nav a:hover {
 
 .my-work-box {
     display: flex;
+    flex-wrap: wrap;
+    
     width: 100%;
 }
 
