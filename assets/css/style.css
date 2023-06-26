@@ -110,6 +110,11 @@ main {
     font-size: 150%;
 }
 
+#phone {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
 /* right under the header */
 .under-header {
     display: flex;
