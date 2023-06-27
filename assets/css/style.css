@@ -73,9 +73,12 @@ main {
 /* for About Me section */
 .about-me-box {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    height: 16vh;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10%;
     
 }
 
@@ -86,7 +89,9 @@ main {
 }
 
 .about-me-box img {
-    margin-left: 1vh;
+    margin-bottom: 2vh;
+    width: 10vw;
+    height: fit-content;
 }
 
 /* For My Work section */
@@ -97,6 +102,7 @@ main {
     width: fit-content;
 }
 
+/* For that one large image */
 .my-work-card-large {
     background-image: url(../img/first-work.jpg);
     background-size: cover;
@@ -109,6 +115,7 @@ main {
     transition: all 0.3s ease-in;
 }
 
+/* 2 place holders for "comming soon" */
 .my-work-card-small1 {
     background-image: url(../img/second-work.jpg);
     background-size: cover;
@@ -131,6 +138,7 @@ main {
     transition: all 0.3s ease-in;
 }
 
+/* For animation */
 .my-work-card-large:hover,
 .my-work-card-small1:hover,
 .my-work-card-small2:hover {
@@ -169,6 +177,7 @@ main {
 
 .contact-info-box ul li {
     list-style: none;
+    margin: 1px;
 }
 
 .contact-info-box ul li a {
@@ -244,4 +253,43 @@ footer {
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 75%;
+    }
+
+    .under-header {
+        font-size: 70%;
+    }
+
+    .left-box {
+        margin-left: 5%;
+    }
+
+    .left-box h2 {
+        font-size: 60%;
+    }
+
+    .my-work-card-large {
+        width: 30vh;
+    }
+
+    .my-work-card-small1,
+    .my-work-card-small2 {
+        width: 15vh;
+    }
+
+    .my-work-box h3 {
+        font-size: 75%;
+    }
+
+    .about-me-box p {
+        font-size: 80%;
+    }
+
+    .contact-info-box {
+        font-size: 60%;
+    }
 }
