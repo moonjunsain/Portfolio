@@ -294,3 +294,13 @@ footer {
         font-size: 60%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    header {
+        font-size: 50%;
+    }
+
+    .under-header {
+        justify-content: center;
+    }
+}
