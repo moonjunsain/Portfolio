@@ -110,6 +110,19 @@ main {
     font-size: 150%;
 }
 
+
+
+.contact-info-box span[data-descr]:hover::after {
+    content: attr(data-descr);
+}
+
+span[data-descr] {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    border: 10px black;
+}
+
 #phone {
     font-size: 150%;
     text-decoration: underline;
