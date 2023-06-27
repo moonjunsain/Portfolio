@@ -94,7 +94,16 @@ main {
     display: flex;
     flex-wrap: wrap;
     padding-left: 50px;
-    width: 90vh;
+    width: fit-content;
+}
+
+.my-work-card-large {
+    background-image: url(../img/first-work.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 120vh;
+    height: 50vh;
+    border: 2px black solid;
 }
 
 /* For Contact Info section */
@@ -175,6 +184,15 @@ main section h2 {
 #contact-info {
     text-shadow: 0px 0px 5px rgb(186, 186, 90);
 
+}
+
+/* Ids for images */
+#image-large {
+    width: 100vh;
+}
+
+#image-small {
+    width: 50vh;
 }
 
 /* footer styles */
