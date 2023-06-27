@@ -106,9 +106,34 @@ main {
     height: 50vh;
     border: 2px black solid;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
-.my-work-card-large:hover {
+.my-work-card-small1 {
+    background-image: url(../img/second-work.jpg);
+    background-size: cover;
+    filter: grayscale(1);
+    width: 60vh;
+    height: 25vh;
+    border: 2px black solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.my-work-card-small2 {
+    background-image: url(../img/third-work.jpg);
+    background-size: cover;
+    filter: grayscale(1);
+    width: 60vh;
+    height: 25vh;
+    border: 2px black solid;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.my-work-card-large:hover,
+.my-work-card-small1:hover,
+.my-work-card-small2:hover {
     filter: none;
 }
 
@@ -118,6 +143,16 @@ main {
     color: white;
     background-color: rgb(37, 15, 70);
     padding: 1vh;
+    font-weight: lighter;
+}
+
+.my-work-card-small1 h3,
+.my-work-card-small2 h3 {
+    position: relative;
+    top: 70%;
+    color: white;
+    background-color: rgb(37, 15, 70);
+    padding: .5vh;
     font-weight: lighter;
 }
 
