@@ -101,9 +101,24 @@ main {
     background-image: url(../img/first-work.jpg);
     background-size: cover;
     background-position: right;
+    filter: grayscale(1);
     width: 120vh;
     height: 50vh;
     border: 2px black solid;
+    cursor: pointer;
+}
+
+.my-work-card-large:hover {
+    filter: none;
+}
+
+.my-work-card-large h3 {
+    position: relative;
+    top: 85%;
+    color: white;
+    background-color: rgb(37, 15, 70);
+    padding: 1vh;
+    font-weight: lighter;
 }
 
 /* For Contact Info section */
@@ -186,14 +201,7 @@ main section h2 {
 
 }
 
-/* Ids for images */
-#image-large {
-    width: 100vh;
-}
 
-#image-small {
-    width: 50vh;
-}
 
 /* footer styles */
 footer {
