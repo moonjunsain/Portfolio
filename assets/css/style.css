@@ -104,9 +104,9 @@ main {
 
 /* For that one large image */
 .my-work-card-large {
-    background-image: url(../img/first-work.jpg);
+    background-image: url(../img/cat-fish.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: top;
     filter: grayscale(1);
     width: 120vh;
     height: 50vh;
