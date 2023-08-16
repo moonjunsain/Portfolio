@@ -117,8 +117,9 @@ main {
 
 /* 2 place holders for "comming soon" */
 .my-work-card-small1 {
-    background-image: url(../img/second-work.jpg);
+    background-image: url(../img/monkey-cup.png);
     background-size: cover;
+    background-position: bottom;
     filter: grayscale(1);
     width: 60vh;
     height: 25vh;
